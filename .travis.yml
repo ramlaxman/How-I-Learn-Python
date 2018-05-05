@@ -10,11 +10,11 @@ script:
   - coverage run tests.py
 
 after_success:
-  - codecov
+  - codecov run helloWorld.py
   - codecov --token=db371fc3-d78a-426f-8efe-727db92dfa6d
 
-script:
-  - python helloWorld.py
+#script:
+#  - python helloWorld.py
 
 notifications:
   email: false
