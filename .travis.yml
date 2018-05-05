@@ -5,3 +5,6 @@ python:
 
 script:
   - python helloWorld.py
+
+notifications:
+  email: false
