@@ -1,5 +1,3 @@
-sudo: false
-
 language: python
 
 python:
@@ -13,6 +11,7 @@ script:
 
 after_success:
   - codecov
+  - codecov --token=db371fc3-d78a-426f-8efe-727db92dfa6d
 
 script:
   - python helloWorld.py
