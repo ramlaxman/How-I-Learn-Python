@@ -12,6 +12,7 @@ script:
 after_success:
   - codecov run helloWorld.py
   - codecov --token=db371fc3-d78a-426f-8efe-727db92dfa6d
+  - coverage report -m
 
 #script:
 #  - python helloWorld.py
