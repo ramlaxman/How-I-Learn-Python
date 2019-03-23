@@ -9,7 +9,7 @@ services:
     environment:
       MONGO_URI: mongodb://localhost:27017/query-server
   mongo:
-    image: mongo:latest@sha256:c4e8225e68348b18283cf5c523f99122426fe1e15d883104e24c61bedb4b2ca7
+    image: mongo:latest@sha256:d3d3159cf32d2df6f9cf76bef569556db8efe73757649211e7f012206180ca8f
     volumes:
       - /data/mongodb/db:/data/db
     ports:
