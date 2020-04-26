@@ -8,7 +8,7 @@
 
 #####  Before using Deploy to cloud option, log in: [Docker Cloud](https://cloud.docker.com)
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ramlaxman/How-I-Learn-Python.svg?style=plastic)](https://hub.docker.com/repository/docker/mayurp7/how-i-learn-python/)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ramlaxman/How-I-Learn-Python.svg?style=plastic)](https://hub.docker.com/repository/registry-1.docker.io/mayurp7/how-i-learn-python/builds)
 
 
 # How I Learn Python
