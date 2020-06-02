@@ -5,7 +5,7 @@ flask==1.1.1
 requests==2.22.0
 pytest==5.4.3
 requests==2.23.0
-pytest==4.3.1
+pytest==5.4.3
 flask==1.1.1
 requests==2.23.0
 pytest==5.4.1
